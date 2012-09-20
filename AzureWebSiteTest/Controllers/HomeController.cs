@@ -10,7 +10,7 @@ namespace AzureWebSiteTest.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Azure WebSite App deployed from GitHub";
+            ViewBag.Message = "Azure WebSite Demo deployed from GitHub";
 
             return View();
         }
